@@ -5,10 +5,10 @@ import LandingPage from "../components/LandingPage";
 
 
 const PublicRoutes = [
-   
+    {path: '/', exact: true, name: "Index", component: Greetings},
     {path: '/member', exact: true, name: "member", component: LandingPage},
     {path: '/introduction', exact: true, name: "introduction", component: Introduction},
-    
+    {path: '/example', exact: true, name: "Example", component: Introduction},
 
 
 ];
